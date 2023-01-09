@@ -11,7 +11,7 @@
         group are two aspects that we focus on the most. We want GymAalborg to
         be your second home!
       </p>
-      <a href="" class="button">Let's try it</a>
+      <router-link to="/training" class="button">Let's try it</router-link>
     </div>
     <img
       src="@/assets/homepage1.jpg"

@@ -60,7 +60,7 @@ export default {
 
   
   created() {
-    fetch("https://www.martynagradzka.dk/wp-json/wp/v2/posts?tags=8")
+    fetch("https://www.martynagradzka.dk/wp-json/wp/v2/posts?tags=8&per_page=99")
       .then((resp) => resp.json())
       .then((data) => {
         this.isData = true

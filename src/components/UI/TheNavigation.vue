@@ -19,7 +19,7 @@
         <!-- <div class="dot flex"></div> -->
       </li>
       <li class="uppercase flex">
-        <router-link to="/activities" class="link">Activities</router-link>
+        <router-link to="/activities" class="link" :class="{'active': $route.name === 'playroom' ||  $route.name === 'birthday' ||  $route.name === 'gymland'  }">Activities</router-link>
         <!-- <div class="dot"></div> -->
       </li>
       <li class="uppercase flex">
@@ -53,7 +53,7 @@ nav {
   position: relative;
   padding: 2rem;
   position: fixed;
-  background-color: rgb(238, 238, 238);
+  background-color:  rgb(245, 245, 245);
   width: 100%;
   /* text-align: center; */
   justify-content: space-between;

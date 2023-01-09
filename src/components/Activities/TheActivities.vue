@@ -24,15 +24,15 @@ export default {
       slides: [
         {
             img: "../../assets/carousel1.png",
-            route: "/home"
+            route: "/activities/birthday"
         },
         {
             img: "../../assets/carousel2.png",
-            route: "/about"
+            route: "/activities/gymland"
         },
         {
             img: "../../assets/carousel3.png",
-            route: "/home"
+            route: "/activities/playroom"
         }
       ],
     };

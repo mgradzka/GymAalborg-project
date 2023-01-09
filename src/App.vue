@@ -43,7 +43,7 @@ html {
 }
 
 main {
- background-color:  rgb(238, 238, 238);
+ background-color:  rgb(245, 245, 245);
   padding: 5rem 40rem;
   margin: auto;
   background-image: url(./assets/background_7.png);
@@ -120,7 +120,7 @@ h1 {
 
 
 .background {
-  background-color: rgb(238, 238, 238);
+  background-color:  rgb(245, 245, 245);
   padding: 0 4rem;
 }
 

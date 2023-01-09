@@ -4,11 +4,14 @@ import App from "./App.vue";
 import TheFooter from "./components/UI/TheFooter";
 import HomePage from "./components/HomePage/HomePage.vue";
 import AboutUs from "./components/AboutUs/AboutUs.vue";
-import TheHeader from "./components/UI/TheHeader.vue";
+import TheHeader from "./components/UI/TheNavigation.vue";
 import TheClothes from "./components/Clothes/TheClothes.vue";
 import TheTraining from "./components/Trainings/TrainingPage.vue";
 import TheHeading from "./components/UI/TheHeading.vue";
 import TheActivities from "./components/Activities/TheActivities.vue";
+import PlayroomPage from "./components/Activities/PlayroomPage.vue";
+import BirthdayPage from "./components/Activities/BirthdayPage.vue";
+import GymLand from "./components/Activities/GymLand.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faFacebook,
@@ -36,6 +39,9 @@ const router = createRouter({
     { name: "home", path: "/home", component: HomePage },
     { path: "/training", component: TheTraining },
     { path: "/activities", component: TheActivities },
+    { name: "playroom", path: "/activities/playroom", component: PlayroomPage },
+    { name: "birthday", path: "/activities/birthday", component: BirthdayPage },
+    { name: "gymland", path: "/activities/gymland", component: GymLand },
     { path: "/about", component: AboutUs },
     { path: "/clubwear", component: TheClothes },
     { path: "/:notfound(.*)", redirect: "/home" },
