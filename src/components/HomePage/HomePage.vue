@@ -2,24 +2,9 @@
   <main>
     <div class="background">
       <section>
-        <the-heading>We are GymAalborg</the-heading>
+        <the-heading>Welcome to GymAalborg</the-heading>
         <!-- <h2>Gym Aalborg</h2> -->
-        <p>
-          Who we are? We are gymnasts in Aalborg. We love sport, being active
-          and having fun.
-        </p>
-        <video controls autoplay>
-          <source src="../../assets/gymnastic.mp4" type="video/mp4" />
-        </video>
-        <!-- <iframe autoplay
-          width="560" 
-          height="315"
-          src="https://www.youtube.com/embed/wxhG_683ALE"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe> -->
+
       </section>
 
       <!-- <img
@@ -29,8 +14,37 @@
       /> -->
       <!-- <event-calendar></event-calendar> -->
       <training-teaser></training-teaser>
-
-      <the-volunteers></the-volunteers>
+      <p>
+        We are gymnasts in Aalborg. We love sport, being active and
+        having fun.
+      </p>
+      
+        <iframe autoplay
+          width="560" 
+          height="315"
+          src="https://www.youtube.com/embed/wxhG_683ALE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      <!-- <video controls autoplay>
+        <source src="../../assets/gymnastic.mp4" type="video/mp4" />
+      </video> -->
+      <the-volunteers>
+        <template #heading>Join our team!</template>
+        <template #para
+          >Join our team and become a new member of our family at Gym Aalborg!
+          we are looking for people who are open and not afraid of challenges,
+          who will want to develop this place with us.<br /><br />Are you
+          gymnastic trainer? <br />Do you want to become a gymnastic trainer?<br />
+          Or do you want to volunteer and have fun with us?<br /><br />
+          If you answered yes to at least one of these questions, leave us a
+          message! We will contact you for sure and talk about the details of
+          possible cooperation.</template
+        >
+        >
+      </the-volunteers>
     </div>
   </main>
 </template>
@@ -38,7 +52,6 @@
 <script>
 import TrainingTeaser from "./TrainingTeaser";
 import TheVolunteers from "../TheVolunteers";
-// import EventCalendar from "../Calendar/EventCalendar";
 export default {
   components: {
     TrainingTeaser,
@@ -58,6 +71,13 @@ video {
   width: 100%;
 }
 
+p{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:2rem;
+  font-weight: 400;
+}
 article,
 section {
   margin-bottom: 5rem;
@@ -68,5 +88,10 @@ h2 {
 
 section * {
   padding-bottom: 2rem;
+}
+
+iframe {
+  width: 100%;
+  height:50rem
 }
 </style>

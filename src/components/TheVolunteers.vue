@@ -1,16 +1,11 @@
 <template>
   <article class="flex">
     <div class="flex">
-      <h2>We are looking for volunteers</h2>
+      <h2><slot name=heading></slot></h2>
       <p>
-        Do you like helping and having fun? Join our team and family at Gym
-        Aalborg! <br>We have build our gym ourselves. It is an unique place for doing
-        gymnastics and other sports. We would be happy to have you.<br><br>
-           Do you like helping and having fun? Join our team and family at Gym
-        Aalborg! <br>We have build our gym ourselves. It is an unique place for doing
-        gymnastics and other sports. We would be happy to have you. ...
+        <slot name=para></slot>
       </p>
-      <a href="" class="button">Ready to help</a>
+      <a href="" class="button">I am interested!</a>
     </div>
        <img src="@/assets/homepage2.jpg" class="img-homepage" alt="there will be img" />
    

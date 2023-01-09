@@ -23,15 +23,15 @@ export default {
     return {
       slides: [
         {
-            img: "../assets/gymland1.jpg",
+            img: "../../assets/carousel1.png",
             route: "/home"
         },
         {
-            img: "../assets/playroom1.jpg",
+            img: "../../assets/carousel2.png",
             route: "/about"
         },
         {
-            img: "../assets/Bday1.jpg",
+            img: "../../assets/carousel3.png",
             route: "/home"
         }
       ],

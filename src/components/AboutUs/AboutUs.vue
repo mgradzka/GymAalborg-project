@@ -1,11 +1,9 @@
 <template>
   <main>
     <div class="background">
-      <the-heading
-        >Get to know Gym Aalborg!</the-heading
-      >
+      <the-heading>Get to know Gym Aalborg!</the-heading>
       <h2>Our board of directors</h2>
-       <the-spinner v-if="!isData"></the-spinner>
+      <the-spinner v-if="!isData"></the-spinner>
       <section class="trainers">
         <single-trainer
           v-for="trainer in data"
@@ -16,7 +14,20 @@
           :mail="trainer.acf.email"
         ></single-trainer>
       </section>
-      <the-volunteers></the-volunteers>
+      <the-volunteers>
+        <template #heading>Become a member of our family</template>
+        <template #para
+          >Join our team and become a new member of our family at Gym Aalborg!
+          We are looking for people who are open and not afraid of challenges,
+          who will want to develop this place with us.<br /><br />Are you
+          gymnastic trainer? <br />Do you want to become a gymnastic trainer?<br />
+          Or do you want to volunteer and have fun with us?<br /><br />
+          If you answered yes to at least one of these questions, leave us a
+          message! We will contact you for sure and talk about the details of
+          possible cooperation.</template
+        >
+        >
+      </the-volunteers>
       <the-gallery></the-gallery>
     </div>
   </main>
@@ -26,13 +37,13 @@
 import SingleTrainer from "./SingleTrainer.vue";
 import TheVolunteers from "../TheVolunteers.vue";
 import TheGallery from "./TheGallery.vue";
-import TheSpinner from '../TheSpinner.vue'
+import TheSpinner from "../TheSpinner.vue";
 export default {
   components: {
     SingleTrainer,
     TheVolunteers,
     TheGallery,
-  TheSpinner
+    TheSpinner,
   },
   provide() {
     return {
@@ -41,7 +52,7 @@ export default {
   },
   data() {
     return {
-      isData:false,
+      isData: false,
       data: [],
     };
   },
@@ -49,9 +60,9 @@ export default {
     fetch("https://www.martynagradzka.dk/wp-json/wp/v2/posts?tags=7")
       .then((resp) => resp.json())
       .then((data) => {
-        this.isData = true
+        this.isData = true;
         this.data = data;
-        
+
         // console.log(data);
         //   this.isData= true
         // console.log(data.url);
