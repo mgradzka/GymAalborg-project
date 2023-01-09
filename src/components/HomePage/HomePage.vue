@@ -4,7 +4,7 @@
       <section>
         <the-heading>Welcome to GymAalborg</the-heading>
         <!-- <h2>Gym Aalborg</h2> -->
-
+<weekly-calendar></weekly-calendar>
       </section>
 
       <!-- <img
@@ -52,11 +52,12 @@
 <script>
 import TrainingTeaser from "./TrainingTeaser";
 import TheVolunteers from "../TheVolunteers";
+import WeeklyCalendar from "../Calendar/WeeklyCalendar";
 export default {
   components: {
     TrainingTeaser,
     TheVolunteers,
-    // EventCalendar,
+    WeeklyCalendar
   },
 };
 </script>
