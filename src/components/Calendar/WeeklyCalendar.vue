@@ -1,5 +1,5 @@
 <template>
-
+  
   <div class="calendar">
     <header>
       <button class="secondary" style="align-self: flex-start; flex: 0 0 1">
@@ -47,90 +47,7 @@
               <td></td>
               <td></td>
             </tr>
-            <tr>
-              <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>
-                <div class="event double">
-                  <input id="check" type="checkbox" class="checkbox" /><label
-                    for="check"
-                  ></label
-                  >8:30–9:30 Yoga
-                </div>
-              </td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol">9:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol">10:00</td>
-              <td></td>
-              <td></td>
-              <td>
-                <div class="event double">
-                  <input id="check" type="checkbox" class="checkbox" /><label
-                    for="check"
-                  ></label
-                  >10:00–11:00 Meeting
-                </div>
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol">11:00</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+        
             <tr>
               <td class="headcol">12:00</td>
               <td></td>
@@ -138,7 +55,12 @@
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic <br>12:15 - 13:30 
+                </div></td>
               <td></td>
             </tr>
             <tr>
@@ -158,8 +80,18 @@
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
-              <td></td>
+              <td> <div class="event yoga double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >13:00-14:30 Yoga
+                </div></td>
+              <td><div class="event cheerleading double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Cheerleading <br>13:00 - 15:00 
+                </div></td>
             </tr>
             <tr>
               <td class="headcol"></td>
@@ -168,7 +100,12 @@
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic- elite team <br>13:30- 16:00 
+                </div></td>
               <td></td>
             </tr>
             <tr>
@@ -206,60 +143,144 @@
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic- baby<br>15:30 - 16:30 
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <td class="headcol">16:00</td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic- Ukraine class <br>16:00 - 17:30 
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic <br>16:00 - 17:15 
+                </div></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic kids<br>16:30 - 17:20 
+                </div></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic kids<br>16:30 - 17:20 
+                </div></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic kids<br>16:30 - 17:20 
+                </div></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic kids<br>16:30 - 17:20 
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <td class="headcol">17:00</td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic <br>17:00 - 18:00 
+                </div></td>
+              <td><div class="event trampolin double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Trampoline- beginner<br>17:00 - 18:30 
+                </div></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic <br>17:10 - 18:25 
+                </div></td>
               <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic <br>17:15 - 18:45 
+                </div></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>checkbox
+              
               <td></td>
             </tr>
             <tr>
               <td class="headcol"></td>
-              <td></td>
-              <td></td>
-              <td><div class="event double">
+              <td><div class="event cheerleading double">
                   <input id="check" type="checkbox" class="checkbox" /><label
                     for="check"
                   ></label
-                  >17:30–18:30 Boxing
+                  >Cheerleading- beginner <br>17:30 - 19:00 
                 </div></td>
-              <td></td>
-              <td></td>
+              <td><div class="event cheerleading double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Cheerleading- elite <br>17:30 - 19:00 
+                </div></td>
+              <td>
+                <div class="event boxing double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Boxing <br>17:30–18:30 
+                </div>
+               
+              </td>
+              <td><div class="event cheerleading double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Cheerleading- beginner<br>17:30 - 19:00 
+                </div> </td>
+              <td><div class="event trampolin double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Trampoline- beginner<br>17:30 - 18:45 
+                </div></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <td class="headcol">18:00</td>
               <td></td>
-              <td></td>
+              <td><div class="event trampolin double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Trampoline- talent team<br>18:15 - 19:45 
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
@@ -280,8 +301,18 @@
             <tr>
               <td class="headcol">19:00</td>
               <td></td>
-              <td></td>
-              <td></td>
+              <td><div class="event gymnastic double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Gymnastic- adults <br>19:00 - 21:00 
+                </div></td>
+              <td> <div class="event yoga double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Yoga 19:00-20:30
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
@@ -299,7 +330,12 @@
             </tr>
             <tr>
               <td class="headcol">20:00</td>
-              <td></td>
+              <td><div class="event cheerleading double">
+                  <input id="check" type="checkbox" class="checkbox" /><label
+                    for="check"
+                  ></label
+                  >Cheerleading- senior <br>20:00 - 22:00 
+                </div></td>
               <td></td>
               <td></td>
               <td></td>
@@ -530,11 +566,11 @@ tbody tr td {
 }
 
 .event {
-  background: #00b4fc;
+  /* background: #00b4fc; */
   color: white;
   border-radius: 2px;
   text-align: left;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   z-index: 2;
   padding: 0.5rem;
   overflow-x: hidden;
@@ -542,9 +578,29 @@ tbody tr td {
   cursor: pointer;
 }
 
+.gymnastic {
+  background-color: rgb(234, 57, 57);
+}
+.yoga {
+  background-color: rgb(246, 62, 135);
+}
+.boxing {
+  background-color: purple;
+}
+.cheerleading {
+  background-color: rgb(243, 147, 37);
+}
+.trampolin {
+  background-color: rgb(0, 149, 255);
+}
+.fitness {
+  background-color: yellowgreen;
+}
+
+
 .event:hover {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  background: #0395cf;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.612);
+  background: #494949;
 }
 
 .event.double {
@@ -585,7 +641,7 @@ button.secondary:focus {
 .today {
   font-weight: 600;
   color: black;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 /* .now {
@@ -601,5 +657,4 @@ button.secondary:focus {
   position: relative;
   top: -2px;
 }
-
 </style>

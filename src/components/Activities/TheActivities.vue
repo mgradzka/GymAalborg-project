@@ -10,15 +10,18 @@
       ></the-carousel>
       <h2>Schedule <font-awesome-icon class="fa-solid" icon="fa-solid fa-calendar-days" /></h2>
       <hr />
+      <weekly-calendar></weekly-calendar>
     </div>
   </main>
 </template>
 
 <script>
 import TheCarousel from "./carousel/TheCarousel.vue";
+import WeeklyCalendar from "../Calendar/WeeklyCalendar";
 export default {
   components: {
     TheCarousel,
+    WeeklyCalendar
   },
   data() {
     return {

@@ -4,6 +4,8 @@
       <section>
         <the-heading>Welcome to GymAalborg</the-heading>
         <!-- <h2>Gym Aalborg</h2> -->
+        <training-teaser></training-teaser>
+        <h2>Weekly schedule</h2>
 <weekly-calendar></weekly-calendar>
       </section>
 
@@ -13,7 +15,7 @@
         alt="there will be img"
       /> -->
       <!-- <event-calendar></event-calendar> -->
-      <training-teaser></training-teaser>
+      
       <p>
         We are gymnasts in Aalborg. We love sport, being active and
         having fun.

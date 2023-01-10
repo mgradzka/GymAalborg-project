@@ -139,4 +139,21 @@ h1 {
   cursor: pointer;
 } */
 
+@media (max-width: 1500px) {
+ 
+  main {
+    padding: 5rem 30rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  main {
+    padding: 5rem 30rem;
+  }
+}
 </style>

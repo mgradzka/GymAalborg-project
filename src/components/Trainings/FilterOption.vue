@@ -14,8 +14,7 @@
       <option value="">Sport</option>
       <option value="Gymnastic">Gymnastic</option>
       <option value="Cheerleading">Cheerleading</option>
-      <option value="Teamgym">Team gym</option>
-      <option value="Trampolin">Trampolin</option>
+      <option value="Trampolin">Trampoline</option>
       <option value="Fitness">Fitness</option>
       <option value="Yoga">Yoga</option>
       <option value="Boxing">Boxing</option>
