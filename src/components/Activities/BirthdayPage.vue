@@ -117,7 +117,7 @@ h3 {
 
 .birthday img {
   max-width: 40%;
-  height:auto
+  height: auto;
 }
 
 .birthday-header {
