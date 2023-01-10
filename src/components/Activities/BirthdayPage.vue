@@ -53,40 +53,40 @@ export default {
             birthdayCard: [
                 {
                     h3: "Birthday Party",
-                    h4: "Sunday",
-                    time: "14:00-17:00",
+                    h4: "Working days",
+                    time: "14:00-16:30",
                     minutes: "(150 minutes)",
                     date: "01.02-31.08",
-                    price: "750 DKK"
+                    price: "775 DKK"
                 },
                   {
                     h3: "Birthday Party",
-                    h4: "Sunday",
-                    time: "14:00-17:00",
+                    h4: "Saturdays",
+                    time: "12:00-14:30",
                     minutes: "(150 minutes)",
                     date: "01.02-31.08",
-                    price: "750 DKK"
+                    price: "850 DKK"
                 },  {
                     h3: "Birthday Party",
-                    h4: "Sunday",
-                    time: "14:00-17:00",
+                    h4: "Saturdays",
+                    time: "16:00-18:30",
                     minutes: "(150 minutes)",
                     date: "01.02-31.08",
-                    price: "750 DKK"
+                    price: "850 DKK"
                 },  {
                     h3: "Birthday Party",
-                    h4: "Sunday",
-                    time: "14:00-17:00",
+                    h4: "Sundays",
+                    time: "12:00-14:30",
                     minutes: "(150 minutes)",
                     date: "01.02-31.08",
-                    price: "750 DKK"
+                    price: "850 DKK"
                 },  {
                     h3: "Birthday Party",
-                    h4: "Sunday",
-                    time: "14:00-17:00",
+                    h4: "Sundays",
+                    time: "15:00-17:30",
                     minutes: "(150 minutes)",
                     date: "01.02-31.08",
-                    price: "750 DKK"
+                    price: "850 DKK"
                 }
 
             ]
@@ -136,5 +136,24 @@ h3 {
 .birthday-offers h2 {
   margin-top: 5rem;
   text-align: center;
+}
+
+.offers-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5rem;
+    width: 80%;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+birthday-card {
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
 </style>
