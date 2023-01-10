@@ -2,16 +2,16 @@
   <div v-if="open" class="backdrop" @click="$emit('close')"></div>
   <transition name="modal">
     <form open v-if="open" class="flex" @submit.prevent="submitSurvey">
-      <h2>Booking information</h2>
+      <h2>Join our team!</h2>
       <div class="flex input-fields">
         <div class="flex input">
           <label for="name">Name</label>
-          <input type="text" name="name" id="name" v-model.trim="enteredName" />
+          <input class="data" type="text" name="name" id="name" v-model.trim="enteredName" />
         </div>
         <!-- <base-button @click="addExercise">Add exercise</base-button> -->
         <div class="flex input">
           <label for="Surname">Surname</label>
-          <input
+          <input class="data"
             type="Surname"
             name="Surname"
             id="Surname"
@@ -22,7 +22,7 @@
       <div class="flex">
         <div class="flex input">
           <label for="email">Email</label>
-          <input
+          <input class="data"
             type="email"
             name="email"
             id="email"
@@ -31,7 +31,7 @@
         </div>
         <div class="flex input">
           <label for="Phone">Phone</label>
-          <input
+          <input class="data"
             type="Phone"
             name="Phone"
             id="Phone"
@@ -39,19 +39,34 @@
           />
         </div>
       </div>
+        <label for="Training">I want to work as a... </label>
       <div class="flex input training">
-        <label for="Training">Type of training</label>
-        <input
-          type="Training"
-          name="Training"
-          id="Training"
-          v-model.trim="enteredTraining"
-        />
+        <div class="option flex">
+          <input 
+            type="radio"
+            id="Trainer"
+            value="Trainer"
+            name="radio"
+            v-model="chosenRole"
+          />
+          <label for="rating-poor">Trainer</label>
+        </div>
+        <div class="option flex">
+          <input
+            type="radio"
+            id="Volunteer"
+            value="Volunteer"
+            name="radio"
+            v-model="chosenRole"
+          />
+          <label for="rating-average">Volunteer</label>
+        </div>
+      
       </div>
     
       <div class="button-container flex">
         <a class="button close" @click="$emit('close')">Close</a>
-        <button href="" id="confirm">Confirm</button>
+        <button href="" id="confirm">Apply</button>
       </div>
       <transition>
         <p v-if="invalidInput">
@@ -62,7 +77,7 @@
         <font-awesome-icon
                 class="fa-regular"
                 icon="fa-regular fa-face-smile"
-              /> Thank you - your training is now booked! Check your email regarding the payment.
+              /> Thank you - we have received your submission! Check your email regarding further instructions.
       </p></transition>
       <p v-if="error">{{ error }}</p>
     </form>
@@ -71,7 +86,7 @@
 
 <script>
 export default {
-  props: ["open"],
+   props: ["open"],
   emits: ["close"],
   data() {
     return {
@@ -79,7 +94,7 @@ export default {
       enteredSurname: "",
       enteredEmail: "",
       enteredPhone: "",
-      enteredTraining: "",
+      chosenRole: null,
       invalidInput: false,
       dataSubmitted: false,
       error:null
@@ -92,7 +107,7 @@ export default {
         this.enteredSurname === "" ||
         this.enteredEmail === "" ||
         this.enteredPhone === "" ||
-        this.enteredTraining === ""
+        !this.chosenRole
       ) {
         this.invalidInput = true;
         return;
@@ -101,7 +116,7 @@ export default {
 
       this.error = null;
       fetch(
-        "https://gymaalborg-1cc78-default-rtdb.firebaseio.com/bookings.json",
+        "https://gymaalborg-applications-default-rtdb.firebaseio.com/applications.json",
         {
           method: "POST",
           headers: {
@@ -112,7 +127,7 @@ export default {
             surname: this.enteredSurname,
             phone: this.enteredPhone,
             email: this.enteredEmail,
-            training: this.enteredTraining,
+            role: this.chosenRole,
           }),
         }
       )
@@ -133,7 +148,7 @@ export default {
         (this.enteredSurname = ""),
         (this.enteredEmail = ""),
         (this.enteredPhone = ""),
-        (this.enteredTraining = "");
+        (this.chosenRole = null);
     },
   },
 };
@@ -165,6 +180,10 @@ export default {
   padding-right: 3rem;
 }
 
+.data {
+    width: auto
+}
+
 .input-fields {
   padding-bottom: 1rem;
 }
@@ -172,7 +191,7 @@ h2 {
   margin-bottom: 2rem;
 }
 label {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 input {
   border-radius: 36px;
@@ -181,10 +200,10 @@ input {
   padding: 1rem;
 }
 
-.training input {
-  width: 35rem;
+.option {
+    align-items: center;
+    gap:1rem
 }
-
 .button {
   border-radius: 30px;
   padding: 1rem 2rem;
@@ -204,11 +223,10 @@ form {
   flex-direction: column;
   position: fixed;
   top: 20vh;
-  justify-items: center;
-  width: 55rem;
-  height: 47rem;
+  align-content: center;
+  width: 60rem;
+  height: 50rem;
   margin: 0 20rem;
-  /* margin: 0 auto; */
   border-radius: 12px;
   padding: 4rem;
   background-color: rgb(231, 231, 231);
@@ -231,8 +249,9 @@ form {
 }
 
 p {
-  font-size:1.4rem
+    font-size: 1.4rem
 }
+
 
 @keyframes modal {
   from {

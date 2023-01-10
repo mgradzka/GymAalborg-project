@@ -23,16 +23,24 @@ export default {
     return {
       slides: [
         {
-            img: "../../assets/carousel1.png",
-            route: "/activities/birthday"
+            img: "../../assets/birthday.jpg",
+            route: "/activities/birthday",
+            h1: "Celebrate birthday",
+            p: "Make your child hvae an unforgettable birthday! Throw a party in Aalborg's funniest and most spectacular gymnasium, Gymnastikkens Hus"
         },
         {
-            img: "../../assets/carousel2.png",
-            route: "/activities/gymland"
+            img: "../../assets/gymland1.jpg",
+            route: "/activities/gymland",
+             h1: "GymLand experience",
+            p: "Spend your weekend actively having a memorable time in GymAalborg biggest playground!"
+        
         },
         {
-            img: "../../assets/carousel3.png",
-            route: "/activities/playroom"
+            img: "../../assets/playroom1.jpg",
+            route: "/activities/playroom",
+             h1: "Playroom challenge",
+            p: "Are you looking for new challenges and fun entertainment? Try your hand at our playroom - it may be interesting not only for the youngest!"
+        
         }
       ],
     };

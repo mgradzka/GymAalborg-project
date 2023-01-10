@@ -6,7 +6,7 @@
       @mouseenter="$emit('mouseenter')"
       @mouseout="$emit('mouseout')"
     >
-      <router-link :to="slide.route"><img :src="slide.img" /></router-link>
+      <router-link :to="slide.route"><div class="container"><div class="text-container"><h2>{{ slide.h1}} </h2> <p>{{ slide.p}}</p></div><img :src="slide.img" /></div></router-link>
       
     </div>
   </transition>
@@ -52,6 +52,29 @@ export default {
 }
 
 img {
-    width:100%
+    width:100%;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+}
+
+h2{
+ 
+  color: rgb(61, 61, 61);
+  font-size:2.6rem;
+  font-weight: 700;
+}
+
+.text-container {
+    position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding:6rem 10rem 6rem 6rem;
+  background-color:rgba(252, 252, 252, 0.626)
 }
 </style>

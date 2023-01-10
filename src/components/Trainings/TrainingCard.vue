@@ -192,6 +192,6 @@ h2 {
 .fade-info-enter-to,
 .fade-info-leave-from {
   opacity: 1;
-  height:20rem
+  height:25rem
 }
 </style>
