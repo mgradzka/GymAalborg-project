@@ -40,6 +40,7 @@ div {
 h3 {
   font-size: 2rem;
   text-align: center;
+  color: var(--greyfont);
 }
 p {
   font-size: 1.2rem;

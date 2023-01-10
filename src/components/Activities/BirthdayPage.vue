@@ -2,9 +2,10 @@
   <main>
     <div class="background">
       <the-heading>Birthday at GymAalborg</the-heading>
-      <h2>Celebrate your birthday</h2>
+      
       <div class="birthday">
         <div class="birthday-header">
+          <h2>Celebrate your birthday</h2>
           <h3>
             Celebrate your birthday with your friends in Aalborg's funniest and
             most spectacular gymnasium, Gymnastikkens Hus
@@ -98,8 +99,8 @@ export default {
 
 <style scoped>
 h2 {
-  margin-top: 3rem;
-  color: var(--lighterred);
+  
+  color: var(--red);
 }
 
 h3 {
@@ -110,18 +111,19 @@ h3 {
 .birthday {
   display: flex;
   justify-content: space-between;
+  margin-top: 10rem;
+  gap:6rem
 }
 
 .birthday img {
-  width: 400px;
-  height: 400px;
+  max-width: 40%;
+  height:auto
 }
 
 .birthday-header {
-  width: 50%;
   display: flex;
   flex-direction: column;
-  row-gap: 4rem;
+  gap: 3rem;
 }
 
 .birthday-info {
@@ -134,7 +136,7 @@ h3 {
 }
 
 .birthday-offers h2 {
-  margin-top: 5rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
@@ -142,8 +144,8 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 5rem;
-    width: 80%;
+    gap: 5rem;
+    /* width: 80%; */
     align-items: center;
     justify-self: center;
     margin: 0 auto;

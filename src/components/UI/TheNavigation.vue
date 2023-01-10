@@ -19,7 +19,7 @@
         <!-- <div class="dot flex"></div> -->
       </li>
       <li class="uppercase flex">
-        <router-link to="/activities" class="link" :class="{'active': $route.name === 'playroom' ||  $route.name === 'birthday' ||  $route.name === 'gymland'  }">Activities</router-link>
+        <router-link to="/activities" class="link" :class="{'active': $route.name === 'playroom' ||  $route.name === 'birthday' ||  $route.name === 'gymland'  || $route.name === 'birthday1' }">Activities</router-link>
         <!-- <div class="dot"></div> -->
       </li>
       <li class="uppercase flex">

@@ -11,6 +11,7 @@ import TheHeading from "./components/UI/TheHeading.vue";
 import TheActivities from "./components/Activities/TheActivities.vue";
 import PlayroomPage from "./components/Activities/PlayroomPage.vue";
 import BirthdayPage from "./components/Activities/BirthdayPage.vue";
+import BirthdayOffer from "./components/Activities/BirthdayOffer.vue";
 import GymLand from "./components/Activities/GymLand.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -42,6 +43,7 @@ const router = createRouter({
     { path: "/activities", component: TheActivities },
     { name: "playroom", path: "/activities/playroom", component: PlayroomPage },
     { name: "birthday", path: "/activities/birthday", component: BirthdayPage },
+    { name: "birthday1", path: "/activities/birthday/birthday1", component: BirthdayOffer },
     { name: "gymland", path: "/activities/gymland", component: GymLand },
     { path: "/about", component: AboutUs },
     { path: "/clubwear", component: TheClothes },

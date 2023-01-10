@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <a href="" class="button">See more</a>
+        <router-link to="/activities/birthday/birthday1" class="button">See more</router-link>
     </article>
 </template>
 
@@ -47,11 +47,12 @@ export default {
 article {
     flex-direction: column;
     background-color: var(--lightgrey);
-    padding: 6rem 3rem 6rem 3rem;
+    padding: 4rem;
     border-radius: 40px;
-    width: 90%;
     justify-content: center;
     text-align: center;
+    border: 1px solid rgba(185, 184, 184, 0.788)
+
 }
 
 .bday-logo {
@@ -60,6 +61,11 @@ article {
     column-gap: 5rem;
     row-gap: 3rem;
     margin-bottom: 2rem;
+}
+
+img {
+    width:2.4rem;
+    height: auto
 }
 
 .bday-time,
@@ -71,11 +77,16 @@ article {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+     color: #2B2B2B;
+     font-weight: 700;
+      text-align: left;
 }
 
 h4 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+     color: #2B2B2B;
+     text-align: left;
 }
 
 p,
