@@ -117,13 +117,13 @@ img {
   height: 400px;
 }
 
-.carousel {
-    margin-top: 8rem
-}
+
 
 .carousel {
+  margin-top: 8rem;
+    width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 .carousel-inner {
   position: relative;

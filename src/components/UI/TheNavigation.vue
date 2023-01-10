@@ -31,7 +31,7 @@
         <!-- <div class="dot flex"></div> -->
       </li>
     </ul>
-    <a href="#" class="button">Book your training here</a>
+    <router-link to="/training" class="button">Book your training here</router-link>
   </nav>
 </template>
 

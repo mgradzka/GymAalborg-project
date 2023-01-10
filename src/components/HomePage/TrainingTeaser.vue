@@ -11,7 +11,7 @@
         encourage you to try out one of our trainings for free and decide based on your
         preferences. We are looking forward to meeting you.
       </p>
-      <router-link to="/training" class="button">Let's try it!</router-link>
+
     </div>
     <img
       src="@/assets/homepage1.jpg"

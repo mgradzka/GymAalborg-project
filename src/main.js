@@ -28,6 +28,7 @@ import {
   faUser,
   faChevronRight,
   faChevronLeft,
+  faCheck
 } from "@fortawesome/free-solid-svg-icons";
 import { faClock, faFaceSmile } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -69,7 +70,8 @@ library.add(
   faChevronDown,
   faUser,
   faChevronRight,
-  faChevronLeft
+  faChevronLeft,
+  faCheck
 );
 
 const app = createApp(App);
