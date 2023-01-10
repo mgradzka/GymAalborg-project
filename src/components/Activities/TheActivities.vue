@@ -9,6 +9,7 @@
         indicators
       ></the-carousel>
       <h2>Schedule <font-awesome-icon class="fa-solid" icon="fa-solid fa-calendar-days" /></h2>
+      <hr />
     </div>
   </main>
 </template>
@@ -43,7 +44,7 @@ export default {
 <style scoped>
 h2 {
     color: black;
-    margin: 4rem  0
+    margin: 4rem 0 0 0;
 }
 
 .fa-solid {

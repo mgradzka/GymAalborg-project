@@ -99,6 +99,7 @@ h4 {
 
 p {
   font-size: 1.6rem;
+  line-height: 2.3rem;
 }
 
 .img-homepage {
