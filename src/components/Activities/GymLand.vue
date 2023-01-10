@@ -91,6 +91,29 @@
                             </p>
                         </div>                 
                     </div>
+
+                    <div class="fb-posts">
+                        <!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500?enablejsapi=1" width="500" height="500" style="border:none;overflow:scroll" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
+                    </div>
             </div>
         </div>
     </main>
@@ -189,4 +212,21 @@ export default {
         line-height: 2.5rem;
     }
 
+    .fb-posts {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+        overflow-x: auto;
+        padding: 2rem;
+    }
+
+    .fb-posts iframe {
+        width: 35%;
+        height: 50%;
+    }
+
+    .fb-posts img {
+        width: 35%;
+        height: 50%;
+    }
 </style>
