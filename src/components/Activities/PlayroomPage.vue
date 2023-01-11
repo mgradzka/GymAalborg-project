@@ -80,19 +80,6 @@
                     </div>
                 </div>
 
-                <div class="notice-info">
-                    <ul>
-                        <li>Note</li>
-                    </ul>
-                    <p>
-                        When registering for the Gym playroom, a 10-trip clip card is included. 
-                        The cutting card is handed out at the reception in Gymnastikkens Hus 
-                        on presentation of the receipt. If you, as a parent, want to register 
-                        your child for GymLegestue, it is important that you first go in and create 
-                        the child under 'My profile' > 'Go to profile' > 'Associate family member', 
-                        and then you can then register the child for GymLegestue.
-                    </p>
-                </div>
             </div>
         </div>
     </main>

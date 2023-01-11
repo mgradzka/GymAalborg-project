@@ -44,7 +44,7 @@ html {
 
 main {
  background-color:  rgb(245, 245, 245);
-  padding: 5rem 40rem;
+  padding: 5rem 20vw;
   margin: auto;
   background-image: url(./assets/background_9.png);
   background-size: cover;

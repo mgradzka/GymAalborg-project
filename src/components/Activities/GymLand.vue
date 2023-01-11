@@ -49,12 +49,7 @@
                         <img src="../../assets/GymLand-ICONS/activity.svg" alt="ticket-logo">
                         <p>10-trip ski pass DKK 300</p>
                     </div>
-                    <div class="ticket-icon">
-                        <div class="space-par"></div>
-                        <p>First clip card can be purchased via registration for GymLand by clicking here
-                            Renewal of clipping cards can be purchased here on our webshop (note that it is a requirement that you are a member of the association in order to rene
-                        </p>
-                    </div>                    
+                      
             </div>
             
             <div class="gymland-info">
@@ -92,28 +87,7 @@
                         </div>                 
                     </div>
 
-                    <div class="fb-posts">
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500?enablejsapi=1" width="500" height="500" style="border:none;overflow:scroll" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGymAalborg%2Fposts%2Fpfbid02u3ksRMe5KPwC3YkifPDwLDsWGzYv1mkpMN8xnhC936iT6tiMNjdvmt8xwix6hNACl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                        <img src="../../assets/FB-dummy-preview.png" alt="location-logo">
-                    </div>
+                    
             </div>
         </div>
     </main>

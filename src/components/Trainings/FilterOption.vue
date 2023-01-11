@@ -47,6 +47,9 @@
 </template>
 
 <style scoped>
+form {
+  margin-bottom:2rem
+}
 select, #appt{
   background-color: var(--red);
   color: white;

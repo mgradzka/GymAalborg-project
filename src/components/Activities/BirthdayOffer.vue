@@ -72,7 +72,7 @@
           <p>
             30 min Celebration of the birthday in our large living room. In the
             summer there is the possibility to use the nice outdoor wooden
-            terrace for grilling etc.
+            terrace for grilling.
           </p>
         </div>
 
@@ -99,7 +99,7 @@
           </li>
           <li>
             • DKK 75 per participant (in addition to the 10 participants who are
-            covered by the basic fee).
+            covered by the basic fee)
           </li>
           <li>
             • Cleaning and vacuuming of the living room/kitchen: DKK 200 (If you
@@ -156,7 +156,7 @@
         <p>
           If the event is <strong>canceled less than 10 days</strong> before the
           scheduled event, the
-          <strong>entry fee will not be refunded.</strong> Nor can the event be
+          <strong>entry fee will not be refunded.</strong>Nor can the event be
           moved to another date if there are fewer than 10 days to the planned
           event.
         </p>
