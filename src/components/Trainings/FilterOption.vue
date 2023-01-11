@@ -37,25 +37,42 @@
       <option value="Sunday">Sunday</option>
     </select>
 
-    <select id="cars" name="cars">
-      <option value="">Time</option>
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="fiat">Fiat</option>
-      <option value="audi">Audi</option>
-    </select>
+
+  <input type="time" id="appt" name="appt">
+
+
+    <button class="clear">Clear all</button>
     <button class="search">Search</button>
   </form>
 </template>
 
 <style scoped>
-select {
+select, #appt{
   background-color: var(--red);
   color: white;
   margin: 3rem 3rem 3rem 0;
   padding: 1rem 1.6rem;
   border: none;
   border-radius: 40px;
+}
+
+option {
+  background-color: white;
+  color: black;
+  padding: 1rem
+}
+
+.clear {
+  color: var(--lighterred);
+  background-color: white;
+  border: 1px solid var(--lighterred);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 1.4rem;
+  transition: 0.4s ease-in;
+  font-weight: 700;
+  border-radius: 40px;
+  margin-right: 1rem
 }
 
 .search {

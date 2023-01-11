@@ -122,7 +122,7 @@ h1 {
 
 .background {
   background-color:  rgb(245, 245, 245);
-  padding: 0 4rem;
+  /* padding: 0 4rem; */
 }
 
 /* 

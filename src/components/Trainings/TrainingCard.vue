@@ -65,7 +65,7 @@
         <p>
           {{ description }}
         </p>
-        <a href="" class="button" @click.prevent="showDialog">Register & pay</a>
+        <a href="" class="button" @click.prevent="showDialog">Register</a>
       </div>
     </transition>
   </article>
