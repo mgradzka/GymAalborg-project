@@ -75,7 +75,7 @@ ul {
   gap: 4rem;
 }
 a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: black;
 }
 

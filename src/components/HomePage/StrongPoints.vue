@@ -1,7 +1,7 @@
 <template>
   <section class="flex">
-    <div class="flex points-container">
-      <strong-item
+    <div class="points-container">
+      <strong-item 
         v-for="(point, index) in strongPoints"
         :key="index"
         :h3="point.h3"
@@ -30,15 +30,15 @@ export default {
       strongPoints: [
         {
           h3: "Experienced coaches",
-          p: "Welcome to GymAalborg website. In our association, we offer a wide range of teams within all ages and gymnastics disciplines",
+          p: "Our staff are trainers with years of experience, who have participated in competitions around the world.",
         },
         {
           h3: "All level groups",
-          p: "Welcome to GymAalborg website. In our association, we offer a wide range of teams within all ages and gymnastics disciplines",
+          p: "Regardless the age and advancement, you can find classes tailored to your level. It doesn't matter if you are a beginner or a pro!",
         },
         {
           h3: "Variety of trainings",
-          p: "Welcome to GymAalborg website. In our association, we offer a wide range of teams within all ages and gymnastics disciplines",
+          p: "At GymAalborg we have a large selection of trainings, so you will definitely find the perfect one for you - no matter what you are interested in.",
         },
       ],
     };
@@ -56,7 +56,10 @@ section {
 }
 
 .points-container {
-  flex-direction: row;
+  /* flex-direction: row; */
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns:  1fr 1fr 1fr;
 }
 
 .buttons {
